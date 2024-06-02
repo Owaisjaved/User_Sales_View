@@ -1,0 +1,19 @@
+.sales-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.sales-item:hover {
+  background-color: #eaeaea;
+}
+
+.sales-item-text {
+  flex-grow: 1;
+}
+
+.sales-item-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
