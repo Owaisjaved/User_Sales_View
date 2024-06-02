@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Simplesaurance React APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a simple application interface built with React that allows users to submit information via form. See the entries and data visualization in a chart
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Motivation](#motivation)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [Improvements](#improvements)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Motivation
 
-### `npm test`
+The motivation behind this project was to create a simple and responsive application using React. The project aims to demonstrate proficiency in application responsiveness and implementing a clean and organized folder structure.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Data submission via Form
+- Update and delete a data entry
+- Responsive design for various screen sizes
+- Data visualized in a Pie chart
+- Unit Tests
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React
+- CSS (Styles)
+- React testing library/Jest
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prerequisites
 
-### `npm run eject`
+- Node.js: Make sure Node.js is installed on your machine.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   git clone https://github.com/Owaisjaved/simplesurance_sales_task.git
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Navigate to the project directory:**
 
-## Learn More
+   ```bash
+   cd insurance-sales
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Install dependencies:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm install
+   ```
 
-### Code Splitting
+4. **Run the application:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm start
+   ```
 
-### Analyzing the Bundle Size
+5. **Run Test Cases:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm run test
+   ```
 
-### Making a Progressive Web App
+The app will be available at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Improvements
 
-### Advanced Configuration
+Given more time, here are some potential improvements for enhancing the chat application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Enhancing User Interface and Design:**
+  Enhancing and improving the overall aesthetics and design components to create a more visually attractive user interface.
 
-### Deployment
+- **New Technology usage:**
+  Some other tech that I would have used to make the application more maintainable.
+  1: "TypeScript" instead of JavaScript
+  2: "YUP Validation Library" instead of custom validation
+  3: "React-hook-form" instead of custom input fields for making the application much faster
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Optimizing Performance Metrics:**
+  Continue to optimize performance metrics for faster loading times. Code splitting, lazy loading, useCallback, useMemo and exploiting the most recent advances in React and browser technology are all possible strategies.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
