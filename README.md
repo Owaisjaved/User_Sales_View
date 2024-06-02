@@ -78,10 +78,10 @@ Given more time, here are some potential improvements for enhancing the chat app
   Enhancing and improving the overall aesthetics and design components to create a more visually attractive user interface.
 
 - **New Technology usage:**
-  Some other tech that I would have used to make the application more maintainable.
-  -1: "TypeScript" instead of JavaScript
-  -2: "YUP Validation Library" instead of custom validation
-  -3: "React-hook-form" instead of custom input fields for making the application much faster
+  Some other tech that I would have used to make the application more maintainable.<br />
+  1: "TypeScript" instead of JavaScript<br />
+  2: "YUP Validation Library" instead of custom validation<br />
+  3: "React-hook-form" instead of custom input fields for making the application much faster
 
 - **Optimizing Performance Metrics:**
   Continue to optimize performance metrics for faster loading times. Code splitting, lazy loading, useCallback, useMemo and exploiting the most recent advances in React and browser technology are all possible strategies.
