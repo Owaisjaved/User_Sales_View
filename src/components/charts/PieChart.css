@@ -1,0 +1,30 @@
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.recharts-surface {
+  width: 100% !important;
+}
+
+.recharts-wrapper {
+  width: 100%;
+  overflow: visible;
+}
+
+.recharts-legend-wrapper {
+  margin-left: 20px;
+}
+
+.recharts-legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.recharts-legend-item-text {
+  margin-left: 8px;
+  font-size: 14px;
+}
