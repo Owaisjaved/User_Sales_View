@@ -1,0 +1,32 @@
+.action-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.action-button:hover {
+  background-color: #0fb415;
+}
+
+.action-button.edit {
+  background-color: #2196f3;
+}
+
+.action-button.edit:hover {
+  background-color: #047adb;
+}
+
+.action-button.delete {
+  background-color: #f44336;
+}
+
+.action-button.delete:hover {
+  background-color: #e72113;
+}
