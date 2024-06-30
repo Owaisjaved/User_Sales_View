@@ -1,0 +1,15 @@
+name: Testing application components
+run-name: ${{ github.actor }} is running the Workflow
+on: [push]
+jobs:
+  Run_Unit_Test_Cases:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: npm install
+        run: npm ci 
+      - name: tests
+        run: npm run test
